@@ -47,3 +47,19 @@ h1, h2, h3, h4, h5, h6 {
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+.glow-top-right {
+  background: radial-gradient(ellipse at top right, rgba(34, 211, 238, 0.15), transparent 50%);
+}
+
+.glow-bottom-left {
+  background: radial-gradient(ellipse at bottom left, rgba(34, 211, 238, 0.15), transparent 50%);
+}
+
+.glow-subtle {
+  background: radial-gradient(ellipse at top right, rgba(8, 145, 178, 0.04), transparent 50%);
+}
+
+.glow-subtle-bl {
+  background: radial-gradient(ellipse at bottom left, rgba(8, 145, 178, 0.04), transparent 50%);
+}
